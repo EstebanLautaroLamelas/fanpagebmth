@@ -62,7 +62,11 @@ footer{
 .img-container img{
     width: 400px;
     height: 400px;
-    margin: 20px;   
+    margin: 20px;
+    transition: 0.3s ease all;
+}
+.img-container img:hover{
+    transform:scale(1.07)
 }
 
 /* follow */
@@ -120,8 +124,13 @@ h1{
 .img-containermerch img{
     width: 400px;
     height: 400px;
-    margin: 20px;   
+    margin: 20px;  
+    transition: 0.3s ease all 
 }
+.img-containermerch img:hover{
+    transform:scale(1.07)
+}
+
 
 .navbar-brand{
 animation: ease-in animation 1s;
