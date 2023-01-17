@@ -1,22 +1,30 @@
 /*--- HEADER ---*/
-
-header{
-    background-color: $color-fondo;
-
-   nav{
-    width: 100%;
-    flex-grow: inherit;
-
-        ul{
-            li{
-                a{  
-                    color: black;
-                    font-size: 1.3rem;
-                    font-family: 'Zen Dots'; 
-                    margin: 10px;
-
-                }
-            }
-        }
-   }
+header {
+    background-color: white;
 }
+.navbar {
+    width: 100%;
+}
+
+.nav-link{
+    color: black;
+    font-size: 1.3rem;
+    font-family: 'Zen Dots'; 
+    margin: 10px;
+}
+.navbar-collapse {
+    flex-grow: inherit;
+}
+.navbar-brand{
+    animation: ease-in animation 1s;
+    }
+    
+    @keyframes animation {
+        0%{
+            transform: scale(0);
+        }
+        100%{
+            transform: scale(1);
+        }
+    }
+    
