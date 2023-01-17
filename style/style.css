@@ -18,7 +18,21 @@ header {
 .navbar-collapse {
     flex-grow: inherit;
 }
+.navbar-brand{
+    animation: ease-in animation 1s;
+    }
+    
+    @keyframes animation {
+        0%{
+            transform: scale(0);
+        }
+        100%{
+            transform: scale(1);
+        }
+    }
+    
 
+/* index */
 .img-principal{
     display: flex;
     justify-content: center;
@@ -133,18 +147,6 @@ h1{
 }
 
 
-.navbar-brand{
-animation: ease-in animation 1s;
-}
-
-@keyframes animation {
-    0%{
-        transform: scale(0);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
 
 
 

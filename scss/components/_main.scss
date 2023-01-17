@@ -1,0 +1,19 @@
+/*--- INDEX ---*/
+    .img-principal{
+        img{
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            width: 100%;
+        }
+    }
+    .article-img{
+        img{
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px; 
+        }
+
+    }

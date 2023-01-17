@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Zen+Dots&display=swap");
+/*--- HEADER ---*/
+header {
+  background-color: white; }
+  header nav {
+    width: 100%;
+    flex-grow: inherit; }
+    header nav ul li a {
+      color: black;
+      font-size: 1.3rem;
+      font-family: 'Zen Dots';
+      margin: 10px; }
+
+/*--- INDEX ---*/
+.img-principal img {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 100%; }
+
+.article-img img {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px; }
+
+/*--- FOOTER---*/
+.menu footer {
+  margin-top: 40px; }
+  .menu footer ul {
+    border: solid 4px black;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 0px 0px 0px 0px; }
+    .menu footer ul li {
+      padding: 20px; }
+
+/*--- MEDIAQUERYS ---*/
+@media only screen and (max-width: 768px) {
+  .img-principal img {
+    width: 700px;
+    height: 700px; }
+  .menu-footer ul {
+    margin: 1rem; } }
+
+@media only screen and (max-width: 576px) {
+  .img-principal img {
+    width: 500px;
+    height: 500px; }
+  .menu-footer ul {
+    margin: 2rem; } }

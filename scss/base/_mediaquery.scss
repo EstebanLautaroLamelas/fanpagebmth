@@ -1,0 +1,23 @@
+/*--- MEDIAQUERYS ---*/
+@media only screen and (max-width: 768px){
+    .img-principal img {
+        width: 700px;
+        height: 700px;
+    }
+    .menu-footer ul{
+        margin: 1rem;
+    }
+    
+    }
+    
+    @media only screen and (max-width: 576px){
+        .img-principal img{
+        width: 500px;
+        height: 500px;    
+        }
+    
+        .menu-footer ul {
+       margin: 2rem;
+    
+        }
+    }

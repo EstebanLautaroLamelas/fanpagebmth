@@ -1,0 +1,22 @@
+/*--- HEADER ---*/
+
+header{
+    background-color: $color-fondo;
+
+   nav{
+    width: 100%;
+    flex-grow: inherit;
+
+        ul{
+            li{
+                a{  
+                    color: black;
+                    font-size: 1.3rem;
+                    font-family: 'Zen Dots'; 
+                    margin: 10px;
+
+                }
+            }
+        }
+   }
+}
