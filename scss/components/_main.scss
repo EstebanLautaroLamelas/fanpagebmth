@@ -24,8 +24,7 @@
         flex-wrap: wrap;
         justify-content:center;
         img{
-            width: map-get($img, wihe);
-            height: map-get($img, wihe);
+            @include sizes (400px,400px);
             margin: 20px;
             transition: 0.3s ease all;
             &:hover{
@@ -79,8 +78,7 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     img{
-        width: map-get($img, wihe);
-        height: map-get($img, wihe);
+        @include sizes (400px,400px);
         margin: 20px;  
         transition: 0.3s ease all;
         &:hover{

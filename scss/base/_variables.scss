@@ -1,7 +1,7 @@
 
 $color-fondo:white
 ;
-
-$img:(
- wihe:400px,
-) 
+@mixin sizes ($width,$height){
+    width: $width;
+    height: $height;
+}
